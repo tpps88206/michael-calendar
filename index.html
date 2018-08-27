@@ -1,9 +1,3 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,10 +19,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="mainw3-agile">
 		<h2>First Vanguard</h2>
 		<div class="main-agileinfo">
-			<div class="w3pay-left"> 
-				<h3>8.0 Raid Calendar</h3>
-				<h3>WCL : coming soon!</h3>
-				<h3>Discord : coming soon!</h3>
+			<div class="w3pay-left">
+				<h3>Raid Calendar</h3>
+				<div class="news-section">
+					<p>《最新消息》</p>
+					<p>九月六日新團隊副本『奧迪爾』正式開啟，九月暫定出團時間已發佈</p>
+					<p>有任何問題請聯繫『goodfate#3413』</p>
+				</div>
+				<h5><a href="#" target="_blank" onclick="comingSoon()">WCL</a></h5>
+				<h5><a href="#" target="_blank" onclick="comingSoon()">Discord</a></h5>
 			</div>	
 			<div class="w3pay-right wthree-pay-grid">
 				<div id="calendar"></div>
@@ -357,43 +356,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
                     !function() {
                         var data = [
-                            // { eventName: 'Lunch Meeting w/ Mark', calendar: 'Work', color: 'orange', date: '2017-01-08' },
-                            // { eventName: 'Interview - Jr. Web Developer', calendar: 'Work', color: 'orange', date: '2017-03-08' },
-                            // { eventName: 'Demo New App to the Board', calendar: 'Work', color: 'orange', date: '2017-02-13' },
-                            // { eventName: 'Dinner w/ Marketing', calendar: 'Work', color: 'orange', date: '2017-02-19' },
-                            //
-                            // { eventName: 'Game vs Portalnd', calendar: 'Sports', color: 'blue', date: '2017-02-28' },
-                            // { eventName: 'Game vs Houston', calendar: 'Sports', color: 'blue', date: '2017-03-19' },
-                            // { eventName: 'Game vs Denver', calendar: 'Sports', color: 'blue', date: '2017-02-04' },
-                            // { eventName: 'Game vs San Degio', calendar: 'Sports', color: 'blue', date: '2017-02-01' },
-                            //
-                            // { eventName: 'School Play', calendar: 'Kids', color: 'yellow', date: '2017-02-25' },
-                            // { eventName: 'Parent/Teacher Conference', calendar: 'Kids', color: 'yellow', date: '2017-02-19' },
-                            // { eventName: 'Pick up from Soccer Practice', calendar: 'Kids', color: 'yellow', date: '2017-03-31' },
-                            // { eventName: 'Ice Cream Night', calendar: 'Kids', color: 'yellow', date: '2017-02-20' },
-                            //
-                            // { eventName: 'Free Tamale Night', calendar: 'Other', color: 'green', date: '2017-02-08' },
-                            // { eventName: 'Bowling Team', calendar: 'Other', color: 'green', date: '2017-02-10' },
-                            // { eventName: 'Teach Kids to Code', calendar: 'Other', color: 'green', date: '2017-03-04' },
-                            // { eventName: 'Startup Weekend', calendar: 'Other', color: 'green', date: '2017-03-17' }
-
-                            { eventName: '奧迪爾 (英雄)', calendar: '英雄', color: 'orange', date: '2018-09-09' },
-                            { eventName: '奧迪爾 (英雄)', calendar: '英雄', color: 'orange', date: '2018-09-10' },
-                            { eventName: '奧迪爾 (英雄)', calendar: '英雄', color: 'orange', date: '2018-09-11' },
-                            { eventName: '奧迪爾 (英雄)', calendar: '英雄', color: 'orange', date: '2018-09-13' },
-                            { eventName: '奧迪爾 (英雄)', calendar: '英雄', color: 'orange', date: '2018-09-16' },
-                            { eventName: '奧迪爾 (英雄)', calendar: '英雄', color: 'orange', date: '2018-09-17' },
-                            { eventName: '奧迪爾 (英雄)', calendar: '英雄', color: 'orange', date: '2018-09-20' },
-                            { eventName: '奧迪爾 (英雄)', calendar: '英雄', color: 'orange', date: '2018-09-24' },
-                            { eventName: '奧迪爾 (英雄)', calendar: '英雄', color: 'orange', date: '2018-09-25' },
-                            { eventName: '奧迪爾 (英雄)', calendar: '英雄', color: 'orange', date: '2018-09-27' },
-                            { eventName: '奧迪爾 (英雄)', calendar: '英雄', color: 'orange', date: '2018-09-30' }
-
+							{ eventName: '奧迪爾 (英雄) 21:00', calendar: '奧迪爾 (英雄)', color: 'orange', date: '2018-09-09' },
+                            { eventName: '奧迪爾 (英雄) 21:00', calendar: '奧迪爾 (英雄)', color: 'orange', date: '2018-09-10' },
+                            { eventName: '奧迪爾 (英雄) 21:00', calendar: '奧迪爾 (英雄)', color: 'orange', date: '2018-09-11' },
+                            { eventName: '奧迪爾 (英雄) 21:00', calendar: '奧迪爾 (英雄)', color: 'orange', date: '2018-09-13' },
+                            { eventName: '奧迪爾 (英雄) 21:00', calendar: '奧迪爾 (英雄)', color: 'orange', date: '2018-09-16' },
+                            { eventName: '奧迪爾 (英雄) 21:00', calendar: '奧迪爾 (英雄)', color: 'orange', date: '2018-09-17' },
+                            { eventName: '奧迪爾 (英雄) 21:00', calendar: '奧迪爾 (英雄)', color: 'orange', date: '2018-09-20' },
+                            { eventName: '奧迪爾 (英雄) 21:00', calendar: '奧迪爾 (英雄)', color: 'orange', date: '2018-09-24' },
+                            { eventName: '奧迪爾 (英雄) 21:00', calendar: '奧迪爾 (英雄)', color: 'orange', date: '2018-09-25' },
+                            { eventName: '奧迪爾 (英雄) 21:00', calendar: '奧迪爾 (英雄)', color: 'orange', date: '2018-09-27' },
+                            { eventName: '奧迪爾 (英雄) 21:00', calendar: '奧迪爾 (英雄)', color: 'orange', date: '2018-09-30' }
                         ];
 
                         var calendar = new Calendar('#calendar', data);
 
                     }();
+
+                    function comingSoon() {
+                        alert("Coming soon!");
+                    }
 				</script> 
 			</div>	
 			<div class="clear">	</div>		
@@ -402,7 +384,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //main -->
 	<!-- copyright -->
 	<div class="w3lscopy-agile">
-		<p>© 2017 Fashion Calendar. All rights reserved | Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a></p>
+		<p>© 2018 WOW Calendar. All rights reserved | Design by <a href="https://github.com/tpps88206/wow-calendar" target="_blank">tpps88206</a></p>
+		<p>Template design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a></p>
 	</div>
 	<!-- //copyright -->   
 </body>

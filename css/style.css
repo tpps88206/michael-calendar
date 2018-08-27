@@ -95,6 +95,20 @@ h2{
     border: 1px solid #00BCD4;
     padding: 0.5em 1em;
 }
+.w3pay-left h5 {
+    padding: 1rem;
+}
+.w3pay-left h5 a {
+    color: #465d69
+}
+.w3pay-left h5 a:hover {
+    color: #3f50ff;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
 /*-- //main --*/
 /*-- copyright --*/
 .w3lscopy-agile{
@@ -267,7 +281,7 @@ h2{
   display: inline-block;
   padding: 0;
   margin: 0;
-  width: 5px;
+  width: 10px;
   height: 5px;
   line-height: 5px;
   margin: 0 1px;
@@ -829,4 +843,11 @@ h2 {
     border-left: 200px solid #ddd;
     border-right: 200px solid #ddd;
     text-align: center;
+}
+.news-section {
+    background-color: #6d939a;
+    color: white;
+}
+.news-section p {
+    padding: 1rem;
 }
