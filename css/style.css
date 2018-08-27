@@ -29,7 +29,7 @@ img{max-width:100%;}
 /*-- end reset --*/
 body {
     font-family: 'Open Sans', sans-serif;
-    background: url(../images/2.jpg)no-repeat 0px 0px;
+    background-color: #4A4A4A;
     background-attachment: fixed;
 	background-size:cover;
 }
@@ -65,7 +65,7 @@ h2{
 	-o-box-shadow: 2px 0px 8px 0px rgb(47, 62, 70);
 	-ms-box-shadow: 2px 0px 8px 0px rgb(47, 62, 70);
     box-shadow: 2px 0px 8px 0px rgb(47, 62, 70);
-	background: url(../images/img1.jpg)no-repeat 0px 0px;
+	background-color: white;
 	background-size:cover 
 } 
 .w3pay-right {
@@ -80,6 +80,7 @@ h2{
     font-size: 1.5em;
     padding: 2em;
     line-height: 1.5em;
+    color: #465d69;
 }
 .w3pay-left h4{
 	-webkit-transform: rotate(90deg);
@@ -820,3 +821,12 @@ h2 {
 }
 }
 /*-- //responsive-design --*/
+
+.line{
+    padding: 0 20px 0;
+    margin: 20px 0;
+    line-height: 1px;
+    border-left: 200px solid #ddd;
+    border-right: 200px solid #ddd;
+    text-align: center;
+}
