@@ -29,6 +29,7 @@ img{max-width:100%;}
 /*-- end reset --*/
 body {
     font-family: 'Open Sans', sans-serif;
+    /*background: url(../images/2.jpg)no-repeat 0px 0px;*/
     background-color: #4A4A4A;
     background-attachment: fixed;
 	background-size:cover;
@@ -66,6 +67,7 @@ h2{
 	-ms-box-shadow: 2px 0px 8px 0px rgb(47, 62, 70);
     box-shadow: 2px 0px 8px 0px rgb(47, 62, 70);
 	background-color: white;
+    /*background: url(../images/img1.jpg)no-repeat 0px 0px;*/
 	background-size:cover 
 } 
 .w3pay-right {
