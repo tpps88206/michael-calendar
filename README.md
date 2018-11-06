@@ -1,4 +1,4 @@
-# wow-calendar
+# calendar
 
 * This is the calendar to notify the schedule and information.
 
