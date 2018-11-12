@@ -4,8 +4,6 @@
 
 # License
 
-* A Design by tpps88206
-
 ### Calendar Template
 
 * A Design by W3Layouts
